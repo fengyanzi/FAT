@@ -14,4 +14,4 @@ The Local Attribution Map (LAM) is an interpretability tool designed for super-r
 
 Currently, I can offer some super-resolution example images.
 
-![img](./docx/test.png")
+![img](./docx/test.png)
