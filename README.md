@@ -7,6 +7,9 @@ A Transformer-based Super Resolution model for remote sensing image
 - [x] Upload the introduction
 
 **Codes and dataset will be publicly released upon acceptance of the paper, which I hope will be no later than March 2025.**
+
+The paper was accepted by TGRS 2025, we will upload the code ASAP!!!
+However, another paper was accepted by CVPR, we need some time to deal with the paper, code, dataset, and undergraduate graduation project. 
  
 Additionally, I provide a user-friendly [LAM](https://github.com/fengyanzi/Local-Attribution-Map-for-Super-Resolution) diagnostic tool, that can be run in 2024.
 
