@@ -1,13 +1,12 @@
 # FAT
 A Transformer-based Super Resolution model for remote sensing image
 
-- [ ] Upload the code of FAT
+- [x] Upload the code of FAT
 - [x] Upload the dataset RSSR25
 - [x] Upload the code of LAM
 - [x] Upload the introduction
 
 
-**The paper was accepted by TGRS 2025, we will upload the code ASAP!!!**
 
 Paper link [https://ieeexplore.ieee.org/document/10912673](https://ieeexplore.ieee.org/document/10912673)
 
