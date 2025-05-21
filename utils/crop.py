@@ -29,9 +29,9 @@ def crop_images(src_dir, dest_dir, crop_rect):
             # 设置源文件夹、目标文件夹和裁剪区域（左、上、右、下）
 
 
-src_dir = './compare\paperv2\dota3'
-dest_dir = './compare\paperv2\dota3/crop/'
-crop_rect = (100, 350, 225, 475)  # (left, upper, right, lower) 这是一个示例裁剪区域
+src_dir = r'../result/version1'
+dest_dir = r'../result/version1/crop'
+crop_rect = (100, 350, 225, 475) 
 
 # 调用函数开始处理
 crop_images(src_dir, dest_dir, crop_rect)
