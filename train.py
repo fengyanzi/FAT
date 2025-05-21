@@ -222,37 +222,20 @@ def main(args):
          \/__/         \/__/         \/__/         ~~            \/__/     \/__/         \/__/         \|__|      
     """
 
-    # 使用print函数打印这个字符串
     print(subtitle)
     train(model, train_dataloader, optimizer, criterion,device, args.save_dir, args.save_cycle, args.epochs,
           args.resume)
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Train a model.')#D:\yxylearn\IRfenbian\datasets\Sen480\cali D:\yxylearn\test\data\test\all  D:\yxylearn\test\data\test\BIT-SR24   D:\yxylearn\test\data\df2k
-    parser.add_argument('--data_dir', type=str, default=r'D:\yxylearn\test\data\test\BIT-SR24', help='Path to dataset')
-    parser.add_argument('--save_dir', type=str, default=r'./version/checkpoints6/realv1fewXU', help='Path to save checkpoints')
+    parser = argparse.ArgumentParser(description='Train a model.')
+    parser.add_argument('--data_dir', type=str, default=r'./datasets/train', help='Path to dataset')
+    parser.add_argument('--save_dir', type=str, default=r'./checkpoints/v1', help='Path to save checkpoints')
     parser.add_argument('--save_cycle', type=int, default=5, help='Cycle of saving checkpoint')
-    parser.add_argument('--resume',default=r'./version/checkpoints6/realv1few/best.pth', type=str,help='Path to checkpoint file to resume training')
+    parser.add_argument('--resume',default=None, type=str,help='Path to checkpoint file to resume training')
     parser.add_argument('--lr', type=float, default=0.0001, help='Learning rate')
     parser.add_argument('--batch_size', type=int, default=2, help='Batch size of each data batch')
     parser.add_argument('--no-cuda', action='store_true', default=False, help='Disable CUDA')
-    parser.add_argument('--epochs', type=int, default=10, help='Epochs')
+    parser.add_argument('--epochs', type=int, default=100, help='Epochs')
     args = parser.parse_args()
     main(args)
-'''
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Train a model.')#D:\yxylearn\IRfenbian\datasets\Sen480\cali D:\yxylearn\test\data\test\all  D:\yxylearn\test\data\test\BIT-SR24
-    parser.add_argument('--data_dir', type=str, default=r'D:\yxylearn\test\data\test\all', help='Path to dataset')
-    parser.add_argument('--save_dir', type=str, default=r'./version/checkpoints3/allv5persr24loss0_05newv5', help='Path to save checkpoints')
-    parser.add_argument('--save_cycle', type=int, default=20, help='Cycle of saving checkpoint')
-    parser.add_argument('--resume', type=str,default=r'D:\yxylearn\test\fastformer\version\checkpoints3\sentarget2/best.pth',help='Path to checkpoint file to resume training')
-    parser.add_argument('--lr', type=float, default=0.0001, help='Learning rate')
-    parser.add_argument('--batch_size', type=int, default=2, help='Batch size of each data batch')
-    parser.add_argument('--no-cuda', action='store_true', default=False, help='Disable CUDA')
-    parser.add_argument('--epochs', type=int, default=30, help='Epochs')
-    args = parser.parse_args()
-    main(args)
-
-
-'''
