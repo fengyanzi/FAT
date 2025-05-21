@@ -72,6 +72,7 @@ Dataset Details
 
 ### Important Note
 > Both compressed and uncompressed versions are available on Baidu Cloud. **The compressed files may be corrupted**, please download the uncompressed version!!!
+> 需要注意的是 BaiduCloud中我们提供了压缩与非压缩形式，**压缩形式的文件似乎存在损坏**，请下载非压缩形式文件！！！
 
 You can obtain the `RSSR25` dataset from:
 - [Baidu Cloud](https://pan.baidu.com/s/1Ywy6W6eVLsJ7nVVoKf6HaQ?pwd=4321) 
