@@ -8,8 +8,10 @@ This repository is an official implementation of the paper "*[Mitigating Texture
 
 
 ### :tada::tada: News :tada::tada:
+- **2026/4/1**  🚀**Acknowledgments**
+  The paper has received **15 citations**, which is greatly encouraging. We are particularly pleased to see citations from works influenced by FAT, such as **UEO** ([IEEE Xplore](https://ieeexplore.ieee.org/document/11367717)). We sincerely thank these authors for their efforts in reproducing our work and for providing the reproducible code and weights.
 - **2025/5/20**  ✅**Code fully released**   
-  *(Just finished undergrad thesis and new paper on 5/18. Who's coding frantically on 520 without a girlfriend? Oh it's me, the clown 🤡)* 
+  *(Just finished undergrad thesis and new paper on 5/18. Who's coding frantically on 520? Oh it's me, the clown 🤡)* 
 - **2025/4/8**  🚀 **Model code released**
 - **2025/3/2** **RSSR25🤗 now on [HuggingFace](https://huggingface.co/datasets/fengyanzi/RSSR25/tree/main)**  
 -  **2025/2/27**  **Double celebration!**  *Paper accepted by [IEEE TGRS](https://ieeexplore.ieee.org/document/10912673) 
@@ -17,10 +19,11 @@ This repository is an official implementation of the paper "*[Mitigating Texture
 - **2025/1/2**  🔍 **Paper received major revision decision**  
 
 ### :tada::tada: 新闻 :tada::tada:
+- **2026/4/1**  致谢   本论文目前已获得 **15次引用**，令人倍感鼓舞。我们很高兴看到一些受FAT影响的论文（例如 **UEO** [IEEE Xplore](https://ieeexplore.ieee.org/document/11367717)。特别感谢这些作者在复现我们工作方面所做的努力，并提供了可复现的代码与权重。
 - **2025/5/20**  ✅ 代码完整发布
-  *(5/18刚完成本科毕设与新论文，是谁520没有女朋友却在疯狂润色代码写说明？原来是我这个小丑🤡)*  
+  *(5/18刚完成本科毕设与新论文，是谁520没有女朋友陪着却在疯狂润色代码写说明？原来是我这个小丑🤡)*  
 - **2025/4/8**  🚀 模型代码公开
-- **2025/3/2** 🌍 RSSR25数据集登陆[HuggingFace](https://huggingface.co/datasets/fengyanzi/RSSR25/tree/main) 🤗
+- **2025/3/2** 🌍 RSSR25数据集登陆[HuggingFace](https://huggingface.co/datasets/fengyanzi/RSSR25/tree/main),有人报告数据有些压缩问题，还是建议从百度云中下载 🤗
 -  **2025/2/27** ✨ 双喜临门！  论文被IEEE TGRS接收 🎉
   🎉* 同日另一篇论文被[CVPR 2025](https://arxiv.org/abs/2504.09621)接收 🏆
 - **2025/1/2**  🔍 论文获得大修决定  
@@ -75,8 +78,8 @@ Dataset Details
 > 需要注意的是 BaiduCloud中我们提供了压缩与非压缩形式，**压缩形式的文件似乎存在损坏**，请下载非压缩形式文件！！！
 
 You can obtain the `RSSR25` dataset from:
-- [Baidu Cloud](https://pan.baidu.com/s/1Ywy6W6eVLsJ7nVVoKf6HaQ?pwd=4321) 
-- 🤗[Hugging Face](https://huggingface.co/datasets/fengyanzi/RSSR25/tree/main)
+- [Baidu Cloud preferred](https://pan.baidu.com/s/1Ywy6W6eVLsJ7nVVoKf6HaQ?pwd=4321) 
+- 🤗[Hugging Face not preferred (looks like the dataset is damaged) ](https://huggingface.co/datasets/fengyanzi/RSSR25/tree/main)
 
 
 ![RSSR25 Dataset Samples](./docx/dataset.png)
@@ -145,6 +148,7 @@ Configurable arguments:
 
 ---
 ## (Real-ESRGAN)Downsampling Tool
+## 仿真降采样实用小工具，用于盲超分blind super resolution实验，建议收藏，网上缺乏相应开源代码
 
 We additionally provide an image degradation tool for creating training datasets for real-world image super-resolution models. This tool is developed based on [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)'s degradation simulation approach and has been adapted to run in 2025.
 
